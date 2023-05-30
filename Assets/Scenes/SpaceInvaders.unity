@@ -397,6 +397,7 @@ MonoBehaviour:
   - {fileID: 464351058727594082, guid: d84829bb55fdcb347b55d8e91f83d31e, type: 3}
   rows: 5
   columns: 11
+  speed: 1
 --- !u!1 &437198080
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,9 @@ public class Invaders : MonoBehaviour
     public Invader[] prefabs;
     public int rows = 5;
     public int columns = 11;
+    public float speed = 1.0f;
+
+    private Vector3 _direction = Vector3.right; //initially right
 
     private void Awake()
     {
@@ -24,5 +27,39 @@ public class Invaders : MonoBehaviour
                 invader.transform.localPosition = position; //local position
             }
         }
+    }
+
+    private void Update()
+    {
+        this.transform.position += _direction * this.speed * Time.deltaTime;
+
+        Vector3 leftEdge = Camera.main.ViewportToWorldPoint(Vector3.zero);
+        Vector3 rightEdge = Camera.main.ViewportToWorldPoint(Vector3.right);
+
+        //if invader touches to screen, flip direction
+        foreach (Transform invader in this.transform)
+        {
+            if (!invader.gameObject.activeInHierarchy)
+            {
+                continue;
+            }
+
+            if(_direction == Vector3.right && invader.position.x >= rightEdge.x - 1.0f) //padding
+            {
+                AdvanceRow();
+            } else if(_direction == Vector3.left && invader.position.x <= leftEdge.x + 1.0f)
+            {
+                AdvanceRow();
+            }
+        }
+    }
+
+    private void AdvanceRow()
+    {
+        _direction.x *= -1.0f;
+
+        Vector3 position = this.transform.position;
+        position.y -= 1.0f;
+        this.transform.position = position;
     }
 }
