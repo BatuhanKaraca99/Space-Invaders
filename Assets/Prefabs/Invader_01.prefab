@@ -91,5 +91,17 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7501799309981590165, guid: 5173965dd15f9e4428ca5771f2386c06, type: 3}
+      propertyPath: animationSprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501799309981590165, guid: 5173965dd15f9e4428ca5771f2386c06, type: 3}
+      propertyPath: animationSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: e0de187d6b5db1e46a338fbf67cc1fbc, type: 3}
+    - target: {fileID: 7501799309981590165, guid: 5173965dd15f9e4428ca5771f2386c06, type: 3}
+      propertyPath: animationSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: bec91dbf0ddb48746a6d454140ab0461, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5173965dd15f9e4428ca5771f2386c06, type: 3}
