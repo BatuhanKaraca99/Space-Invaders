@@ -345,6 +345,58 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.625, y: 2}
   m_EdgeRadius: 0
+--- !u!1 &290264587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290264588}
+  - component: {fileID: 290264589}
+  m_Layer: 0
+  m_Name: Invaders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290264588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290264587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290264589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290264587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd98ba7f105c9541b77914bea8fb193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 2569783065066140724, guid: 7a3d2275c6b952545955993dca9b3fab, type: 3}
+  - {fileID: 2569783065066140724, guid: 7a3d2275c6b952545955993dca9b3fab, type: 3}
+  - {fileID: 480418195355512951, guid: 2463dcb1ba01e8f4eb580e2156e78e54, type: 3}
+  - {fileID: 480418195355512951, guid: 2463dcb1ba01e8f4eb580e2156e78e54, type: 3}
+  - {fileID: 464351058727594082, guid: d84829bb55fdcb347b55d8e91f83d31e, type: 3}
+  rows: 5
+  columns: 11
 --- !u!1 &437198080
 GameObject:
   m_ObjectHideFlags: 0
