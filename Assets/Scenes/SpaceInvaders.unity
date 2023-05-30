@@ -605,7 +605,7 @@ GameObject:
   - component: {fileID: 740507680}
   - component: {fileID: 740507682}
   - component: {fileID: 740507683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -717,6 +717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b91b4605fc5164184bd6c520817367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 5989952282011282122, guid: d050ffda9f8c73d4281da125deb45dbc, type: 3}
+  speed: 5
 --- !u!1 &1255641019
 GameObject:
   m_ObjectHideFlags: 0
