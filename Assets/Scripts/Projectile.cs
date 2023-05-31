@@ -14,7 +14,10 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        this.destroyed.Invoke(); //other scripts can register event
+        if(this.destroyed != null)
+        {
+            this.destroyed.Invoke(); //other scripts can register event
+        }
         Destroy(this.gameObject); //if laser hits something,destroy it
     }
 }
