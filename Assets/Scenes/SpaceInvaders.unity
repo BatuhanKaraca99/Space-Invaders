@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 70625578}
   - component: {fileID: 70625577}
   - component: {fileID: 70625576}
+  - component: {fileID: 70625579}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -234,6 +235,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70625579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70625575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57956085c10c549b438cc3dfb72183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &114967488
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +258,7 @@ GameObject:
   - component: {fileID: 114967490}
   - component: {fileID: 114967489}
   - component: {fileID: 114967491}
+  - component: {fileID: 114967492}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -345,6 +359,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.625, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &114967492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114967488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57956085c10c549b438cc3dfb72183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &290264587
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +460,7 @@ GameObject:
   - component: {fileID: 437198082}
   - component: {fileID: 437198081}
   - component: {fileID: 437198083}
+  - component: {fileID: 437198084}
   m_Layer: 0
   m_Name: MysteryShip
   m_TagString: Untagged
@@ -534,6 +561,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &437198084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437198080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f22b90593f54c4f810b2051fe15f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +910,7 @@ GameObject:
   - component: {fileID: 1791993827}
   - component: {fileID: 1791993826}
   - component: {fileID: 1791993825}
+  - component: {fileID: 1791993828}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -971,6 +1011,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791993828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791993824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57956085c10c549b438cc3dfb72183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1920448751
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1034,7 @@ GameObject:
   - component: {fileID: 1920448754}
   - component: {fileID: 1920448753}
   - component: {fileID: 1920448752}
+  - component: {fileID: 1920448755}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -1082,3 +1135,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1920448755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920448751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57956085c10c549b438cc3dfb72183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

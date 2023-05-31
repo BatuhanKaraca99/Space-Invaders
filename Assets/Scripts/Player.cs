@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public Projectile laserPrefab;
@@ -34,5 +34,15 @@ public class Player : MonoBehaviour
     private void LaserDestroyed()
     {
         _laserActive = false; //allow us to shoot again
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) //character dies
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("Invader") ||
+            other.gameObject.layer == LayerMask.NameToLayer("Missile"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
     }
 }

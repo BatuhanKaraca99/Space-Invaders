@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Invaders : MonoBehaviour
 {
@@ -95,5 +96,10 @@ public class Invaders : MonoBehaviour
     private void InvaderKilled()
     {
         this.amountKilled++;
+
+        if(this.amountKilled >= this.totalInvaders) //if invaders died
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reset
+        }
     }
 }
